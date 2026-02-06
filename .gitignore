@@ -1,0 +1,76 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+coverage.xml
+*.cover
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# DVC
+.dvc/cache
+.dvc/tmp
+
+# Data files (tracked by DVC)
+data/01-raw/*.csv
+data/01-raw/*.xlsx
+data/01-raw/*.parquet
+data/02-preprocessed/*.csv
+data/02-preprocessed/*.parquet
+data/03-features/*.csv
+data/03-features/*.parquet
+data/04-predictions/*.csv
+data/04-predictions/*.parquet
+
+# Models
+models/*.pkl
+models/*.joblib
+models/*.h5
+models/*.pt
+
+# Logs
+*.log
+logs/
+
+# Environment variables
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
